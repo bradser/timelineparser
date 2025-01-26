@@ -39,7 +39,7 @@ public class TimelineparserApplication {
 
 		try {
 			var parser = new Parser();
-			var file = new File("/Users/bradleyserbus/Documents/src/timelineparser/Timeline.json");
+			var file = new File("/Users/<>/Documents/src/timelineparser/Timeline.json");
 			TimelineData result
 					= BuildersKt.runBlocking(EmptyCoroutineContext.INSTANCE,// Dispatchers.getIO()
 						(scope, continuation) -> parser.parse(file, continuation));
