@@ -1,0 +1,1 @@
+Uses a couple of open source libraries to parse and filter Google's Timeline JSON.
